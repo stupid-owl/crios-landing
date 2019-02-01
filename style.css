@@ -7,6 +7,13 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
+.container{
+	margin:0 auto;
+	text-align:center;
+	background:transparent;
+	
+}
+
 .page-header{
 	height:240px;
 	
@@ -59,9 +66,10 @@ body{
 
 .logo__definition{
 	font-size: 18px;
-	color: #4b5863;
+	color: #808080;
 	margin-bottom:90px;
-	font-weight: 700;
+	font-weight: bold;
+	opacity:0.5;
 }
 
 .search{
@@ -82,15 +90,12 @@ body{
 .front-page{
 	background:url('img/horse_layout.png') -200px -220px no-repeat;
 	background-size:content;
-	height:1300px;
+	height:1000px;
 	padding-top:165px;
 }
 
 .front-page__container{
-	margin: 0 auto;
 	max-width:900px;
-	text-align:center;
-	background:transparent;
 }
 
 .front-page__maintext{
@@ -103,9 +108,10 @@ body{
 .front-page__bottomtext{
 	font-size: 18px;
 	color: #4b5863;
+	opacity:0.5;
 }
 
-.front-page__button{
+.button{
 	margin-top: 50px;
 	width: 225px;
 	height: 50px;
@@ -118,18 +124,67 @@ body{
 	border-radius:50px 50px 50px 50px;
 }
 
-.front-page__button:hover{
+.button:hover{
 	transition-duration: 0.7s;
 	background-color: #66b9ff;
 	color:#fff;
 }
 
-.front-page__button:active{
+.button:active{
 	background-color: #2f9df9;
 	transition-duration: 0.2s;
 }
 
-.front-page__button:focus{
+.button:focus{
 	outline: none;
 }
 
+.features__offer{
+	display:flex;
+	max-width:1470px;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	margin-top: 100px;
+}
+
+.features__titles{
+	margin-top: 50px;
+}
+
+.features__maintext{
+	font-size: 48px;
+}
+
+.features__bottomtext{
+	font-size: 18px;
+	color: #4b5863;
+	margin-bottom: 20px;
+	opacity:0.5;
+}
+
+.features__item{
+	max-width:345px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.item__title{
+	max-width:260px;
+	font-size: 18px;
+	margin-top: 35px;
+}
+
+.item__definition{
+	max-width:230px;
+	font-size: 14px;
+	margin:0 auto;
+	margin-top: 40px;
+	line-height: 24px;
+	opacity:0.5;
+	color: #4b5863;		
+}
+
+.features__button{
+	margin-top: 90px;
+	margin-bottom: 100px;
+}
