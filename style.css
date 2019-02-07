@@ -14,6 +14,19 @@ body{
 	
 }
 
+.title{
+	color: #000000;
+	font-weight: bold;
+}
+
+.definition{
+	font-size: 16px;
+	line-height: 24px;
+	opacity:0.5;
+	color: #4b5863;	
+	line-height: 200%;
+}
+
 .page-header{
 	height:240px;
 	width: 100%;
@@ -228,4 +241,42 @@ body{
 .about_item_text{
 	text-align: left;
 	margin: 0 auto;
+}
+
+.appFeatures__container{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto;
+}
+
+.appFeatures__picture{
+	margin:0 auto;
+	display:block;
+}
+
+.appFeatures__appScreenshot_music{
+	padding-top: 160px;
+	background:url('img/snowflake.png') no-repeat -200px -100px;
+}
+
+.appFeatures__appScreenshot_messenger{
+	background:url('img/snowflake2.png') no-repeat 330px 250px;
+	padding-bottom: 200px;
+}
+
+.appFeatures__text{
+	margin:auto 0;
+}
+
+.appFeatures__title{
+	font-size: 48px;
+	color: #43a9ff;
+}
+
+.appFeatures__definition{
+	max-width: 500px;
+}
+
+.appFeatures__text:nth-child(odd){
+	margin-left: 200px;
 }
